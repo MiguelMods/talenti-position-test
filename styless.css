@@ -60,3 +60,11 @@ main section p {
 main section button {
   float: right;
 }
+
+footer {
+  position: sticky;
+  top: auto;
+  bottom: 0%;
+  background: limegreen;
+  text-align: center;
+}
