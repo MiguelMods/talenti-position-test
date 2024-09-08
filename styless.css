@@ -63,6 +63,7 @@ main section button {
 
 footer {
   position: sticky;
+  margin: 25px auto;
   top: auto;
   bottom: 0%;
   background: limegreen;
