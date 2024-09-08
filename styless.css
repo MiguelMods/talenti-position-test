@@ -13,13 +13,11 @@ header h1 {
 
 nav {
   position: sticky;
-  margin-top: 0px;
   top: 15%;
 }
 
 nav ul {
   background: blue;
-  margin: auto;
   text-align: center;
 }
 
@@ -33,4 +31,32 @@ nav ul li {
 nav ul li a {
   color: black;
   text-decoration: none;
+}
+
+main {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+main section {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 15px;
+}
+
+main section h2 {
+  margin: 15px 15px 10px 15px;
+  text-align: justify;
+}
+
+main section p {
+  margin: 0px 15px 10px 15px;
+  text-align: justify;
+}
+
+main section button {
+  float: right;
 }
