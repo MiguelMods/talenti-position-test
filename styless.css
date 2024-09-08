@@ -1,0 +1,36 @@
+header {
+  position: sticky;
+  background: red;
+  width: auto;
+  height: auto;
+  top: 0%;
+  padding: 2.5px 5px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  margin-top: 0px;
+  top: 15%;
+}
+
+nav ul {
+  background: blue;
+  margin: auto;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin: 10px 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
