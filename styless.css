@@ -1,29 +1,29 @@
 header {
   position: sticky;
   background: red;
-  width: auto;
-  height: auto;
   top: 0%;
-  padding: 2.5px 5px;
+  margin: 0px;
 }
 
 header h1 {
   text-align: center;
+  margin: 0px;
 }
 
 nav {
   position: sticky;
-  top: 15%;
+  top: 7%;
 }
 
 nav ul {
   background: blue;
   text-align: center;
+  margin: 0;
 }
 
 nav ul li {
-  display: inline-block;
-  text-decoration: none;
+  display: inline-flex;
+  list-style-type: none;
   color: black;
   margin: 10px 10px;
 }
@@ -34,7 +34,6 @@ nav ul li a {
 }
 
 main {
-  position: relative;
   z-index: -1;
   width: 100%;
   height: 100%;
@@ -42,14 +41,17 @@ main {
 
 main section {
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   bottom: 15px;
+  width: fit-content;
+  height: 160px;
+  border: 1px solid black;
 }
 
 main section h2 {
   margin: 15px 15px 10px 15px;
-  text-align: justify;
+  text-align: center;
 }
 
 main section p {
@@ -63,8 +65,6 @@ main section button {
 
 footer {
   position: sticky;
-  margin: 25px auto;
-  top: auto;
   bottom: 0%;
   background: limegreen;
   text-align: center;
